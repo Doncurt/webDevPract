@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body id="home" class="open-left">
+      <!-- this will render a sidebar with pull out menue items -->
+      <div id="offcanvas-left" class="hide">
+        <ul>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+            </ul>
+             </div>
+             <div class="togglebar">
+                 <!-- adds the class of hide to .offcanvas.left -->
+                 <div class="toggle" onclick="toggleLeft()">
+                     <i class="fa fa-bars"></i>
+                 </div>
+             </div>
+      <!--  the purpouse of the center class is to give styling to the other elements like a side bar-->
+        <div class="center">
+            <header>
+              <!-- navigations should always be  ul/li structure -->
+                <nav>
+                  <!-- Navigation -->
+                  <ul>
+                    <!-- enclosing an item in an <a></a> tage will make it a link you then have to deal wth text decoration -->
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                  </ul>
+                </nav>
+                <!-- END NAVIGATION SECTION -->
+            </header>
+            <!-- putting it outside will give it a diffrent style thats prepared -->
+            <nav>
+              <ul>
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+            </nav>
+
+            <section>
+                <main>
+                    <article>
+                    </article>
+                </main>
+            </section>
+            <footer>
+            </footer>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
+<!-- Bonus Materials -->
+<!-- Learn html vocab: http://apps.workflower.fi/vocabs/html/en -->
+<!-- Images: https://www.w3schools.com/html/html_images.asp -->
+<!-- Video Element: https://www.w3schools.com/html/html5_video.asp -->
