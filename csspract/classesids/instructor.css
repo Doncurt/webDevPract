@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+/*this styles the header element which is traditionally the navigation bar*/
+header {
+  /*this will give it a background color of slate blue*/
+    background-color: slateblue;
+    /**/
+    padding: 5px 20px;
+    /*this will give the text the color of white smoke*/
+    color: whitesmoke;
+}
+main {
+    padding: 20px 20px;
+    /*the background  color of this one will be grey*/
+    background-color: #eaeaea;
+}
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+section h3 {
+    margin: 10px 0;
+}

@@ -1,0 +1,7 @@
+/*you select a class by a .className anything with this class group gets the property*/
+.box {
+  /*this will put a thin border that is solid*/
+border:2px solid;
+/*this will set the background color to be white */
+background-color: white;
+}
