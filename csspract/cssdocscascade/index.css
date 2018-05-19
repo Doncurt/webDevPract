@@ -1,0 +1,31 @@
+/*TRY ALL OF THESE OUT*/
+
+/* this will make the page black but the color of the text white for all elements*/
+/*this is called a css selector*/
+body {
+  /*this is called a property and the part after is called the value*/
+  background-color: #000000;
+  color:#ffffff;
+}
+
+/*this targets all of the tags with b on the entire page*/
+/*b {
+    color: blueviolet;
+}*/
+/*this targets ALL of the b elements under section either direct children or grand children*/
+/*section b{
+color: blueviolet;
+}*/
+
+/*to only select the direct children of the section and not their grandchildren
+use a child combinator
+*/
+
+section > b{
+  color: blueviolet;
+}
+
+/*YOU CAN ALSO COMBINE SELECTORS TO GIVE THEMT HE SAME STYLES*/
+section > b, div>b {
+  color: blueviolet;
+}
