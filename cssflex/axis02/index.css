@@ -1,0 +1,10 @@
+.container {
+  border: 5px solid #ffcc5c;
+  /*by default flex is horizontally based*/
+  display: flex;
+  /*flex-direction: row;  this is the default*/
+  flex-direction: column; /*this will place them in the traditional column*/
+}
+/*NOTES
+- if the direction is set to row then the main axis is horizontal (reading direction)if it is colum then the main exis is vertical (up and down)
+*/

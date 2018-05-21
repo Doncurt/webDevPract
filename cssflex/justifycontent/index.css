@@ -1,0 +1,16 @@
+.container {
+  border: 5px solid #ffcc5c;
+  /*by default flex is horizontally based*/
+  display: flex;
+flex-direction: row;
+justify-content: center  ;
+
+
+}
+/*the following are comands you cn use to affect the direction*/
+/* flex-start flex-end center space-around
+space-between space-evenly */
+/*flex-start  - all items are squeezed at the left hand side or top of the container
+flex-end  - all items are squeezed at the right hand side or bottom
+center- items are squeezed to the center
+*/

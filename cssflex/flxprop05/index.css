@@ -1,0 +1,7 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+/*NOTES :
+the flex propery alows the width of the items iside the contaier to match it, becoming responsive
+*/

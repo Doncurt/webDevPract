@@ -1,0 +1,20 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  /*to move the logout to the left, we need to desable this for just a second*/
+  justify-content: flex-end;
+
+}
+/*this should push this target all the way to the right*/
+/*.logout{
+  margin-left: auto;
+}*/
+/*doing this to .search will move both of them to the right since it pushes in sequential order*/
+/*.search{
+  margin-left: auto;
+}*/
+.home{
+  margin-right: auto;
+}
+/* flex-start flex-end center space-around
+space-between space-evenly */
