@@ -11,20 +11,25 @@
         </header>
         <main>
           <!-- classes mean that many of them can  share the same properties, like stylings -->
-            <section class="box">
+            <section class="box" id="classes">
+              <!-- Most of the test and the border should be state -->
                 <h3>When should we use classes?</h3>
                 <p>Here are <b>two</b> rules of thumb</p>
+                <!-- we will use an ID becuase this just needs to happen to a single element on the page. Unique only one per page -->
                 <ul>
+                  <!-- all of the <b></b> elements should be golden rod -->
                     <li>When you <b>want to</b> apply the same style to multiple elements</li>
                     <li>But <b>not all elements</b> of the same name</li>
                 </ul>
                 <p>A class can be used on <b>multiple elements</b>, and an element can have <b>multiple classes</b></p>
             </section>
-            <section class="box">
+            <section class="box" id="id">
+              <!-- most of the text here should be tomato red -->
                 <h3>When should we use IDs?</h3>
                 <p>Here are <b>two</b> rules of thumb</p>
                 <!-- This should put a border around theul and its child elements -->
                 <ul class="box">
+                  <!-- all of the bold elements should be goldenrod -->
                     <li>When you <b>don't need to</b> apply the same style to multiple elements</li>
                     <li>To have a <b>unique</b> selector to a common element.</li>
                 </ul>

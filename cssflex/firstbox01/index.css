@@ -1,0 +1,7 @@
+/*FLEX BOX AND NOTES*/
+.container {
+  border: 5px solid #ffcc5c;
+/*to give the elemtns under it the abilito tospred out or take on flex caplibiities*/
+/*it is by defaukt a block element unless otherwise stated*/
+display:flex;
+}

@@ -1,7 +1,29 @@
-/*you select a class by a .className anything with this class group gets the property*/
+/*this will put styles to all elements with the class of "box"*/
 .box {
   /*this will put a thin border that is solid*/
 border:2px solid;
 /*this will set the background color to be white */
 background-color: white;
+}
+
+/*this will put styles to the element with the id of "id"*/
+#id{
+  /*the color will be a tomato orage red color to all of th text*/
+color:tomato;
+}
+
+/*this will put styles to the element  with the id of "classes"*/
+#classes{
+  /*this will give all of the text a color of slateblue*/
+  color:slateblue;
+}
+
+
+ /*Now to target a deeply nested elements child*/
+/*this will target the the bold elements inside of a p element inside of the "classes" id
+  this will also target the bold elements inside of the list element inside of the "id" id
+  the text
+*/
+ #classes > P > b,#id li > b {
+color:goldenrod;
 }
