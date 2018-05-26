@@ -5,3 +5,9 @@
 /*NOTES :
 the flex propery alows the width of the items iside the contaier to match it, becoming responsive
 */
+/*selecting the child element*/
+.container > div {
+  /*using flex 1 in this case( not all) will cause it to fill the entire container */
+  /*this will also do the job of resizing for other elements*/
+  flex:1;
+}
